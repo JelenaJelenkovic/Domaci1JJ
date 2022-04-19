@@ -1,0 +1,127 @@
+img {
+    max-width: 100%;
+    height: auto;
+  }
+body{
+  font-family: 'Didact Gothic';font-size: 20px;
+ } 
+ * {box-sizing: border-box;}
+   
+    .slika {
+     max-width: 100%;
+     position: relative;
+  
+    }
+    .slika img {
+      width: 100%;
+      height: auto;
+    }
+
+    .jelopice{
+        background-color:#bdb2a6;
+        font-family: 'Didact Gothic';font-size: 15px;
+        text-align: center;
+        align-content: center;
+      }
+
+      input[type=text], select, textarea {
+        width: 60%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+ footer {
+ font-family: 'Didact Gothic';font-size: 12px;
+ text-align: center;
+ padding: 3px;
+background-color: #1f7a7a;
+color: white;
+}
+     
+ .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+      .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }      
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    
+    .fa-pinterest {
+      background: #cb2027;
+      color: white;
+    }
+
+    table
+    { 
+    margin-left: auto;
+    margin-right: auto;
+    }     
+    
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+    .modal-content {
+      background-color: #fefefe;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+    }
+    .close {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    
+    input[type=submit] {
+      width: 10%;
+      padding: 12px;
+      border: 1px solid rgb(211, 51, 51);
+      background-color: #ca1a1a;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
